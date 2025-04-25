@@ -181,6 +181,8 @@ def keyPressed():
             game.move_right()           
         if keyCode == LEFT:
             game.move_left()
+        if keyCode==DOWN:
+            game.move_down()
             
 def mouseClicked():
     game.restart()
